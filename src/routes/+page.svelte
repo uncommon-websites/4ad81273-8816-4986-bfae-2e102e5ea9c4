@@ -14,71 +14,65 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-person-sitting-peacefully-by-a-window-wi-1765492123925-0.webp",
+    "/generated/image-young-person-meditating-in-a-minimalist--1765492126375-1.webp",
+    "/generated/image-person-journaling-at-a-cozy-desk-focused-1765492128866-2.webp",
+    "/generated/image-person-walking-in-nature-peaceful-and-co-1765492131218-3.webp",
+    "/generated/image-person-doing-gentle-yoga-at-home-calm-at-1765492133907-4.webp",
+    "/generated/image-person-reading-a-book-in-a-comfortable-c-1765492136093-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Real-time emotional guidance.",
+      desc: "Mirror recognizes your emotional patterns as they happen and guides you through AI-powered neuroplasticity techniques.",
+      image: "/generated/image-person-using-their-phone-mindfully-sitti-1765492140691-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Address triggers instantly.",
+      desc: "When anxiety strikes, Mirror helps you rewire your response in the moment, building lasting emotional resilience.",
+      image: "/generated/image-person-experiencing-a-moment-of-relief-a-1765492142922-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Lasting emotional control.",
+      desc: "Beyond temporary relief, Mirror creates permanent changes in how you respond to stress and anxiety.",
+      image: "/generated/image-person-smiling-confidently-in-everyday-s-1765492145142-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
-      image: "plan"
+      title: "Share what you're feeling.",
+      desc: "When anxiety or emotional overwhelm hits, open Mirror and describe what's happening. Our AI recognizes the pattern instantly.",
+      image: "feeling"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
-      image: "schedule"
+      title: "Get guided through the moment.",
+      desc: "Mirror provides real-time neuroplasticity exercises tailored to your specific trigger, helping you rewire your emotional response.",
+      image: "guided"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
-      image: "results"
+      title: "Track your emotional patterns.",
+      desc: "See how your triggers evolve over time. Mirror learns what works for you and adapts its guidance to your unique emotional landscape.",
+      image: "track"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
-      image: "notes"
-    },
-    {
-      step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
-      image: "improve"
+      title: "Build lasting resilience.",
+      desc: "With consistent practice, Mirror helps you create permanent changes in how you respond to stress, anxiety, and emotional triggers.",
+      image: "resilience"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "How is Mirror different from meditation apps?",
+    "Is Mirror a replacement for therapy?",
+    "How quickly will I see results?",
+    "What if I'm already on medication for anxiety?",
+    "How does the AI understand my emotional patterns?"
   ];
 </script>
 
@@ -88,13 +82,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Rewire anxiety.<br />Reclaim control.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      AI-guided neuroplasticity that addresses emotional triggers in real time. When meditation and therapy haven't worked, Mirror helps you build lasting emotional resilience.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Start your journey
     </button>
   </section>
 
@@ -125,21 +119,21 @@
               <div class="w-8 h-8 rounded-full bg-gray-100"></div>
             </div>
             <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
+              <div class="text-xs text-gray-500 mb-1">Today</div>
+              <div class="text-2xl font-bold">Your Patterns</div>
             </div>
             <div class="space-y-3">
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
+                <div class="text-[10px] text-gray-600 mb-2">Work stress</div>
+                <div class="w-full h-1.5 bg-primary-400 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
+                <div class="text-[10px] text-gray-600 mb-2">Social anxiety</div>
+                <div class="w-3/4 h-1.5 bg-primary-300 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
+                <div class="text-[10px] text-gray-600 mb-2">Morning worry</div>
+                <div class="w-1/2 h-1.5 bg-primary-500 rounded"></div>
               </div>
             </div>
           </div>
@@ -149,13 +143,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Your emotions, understood.<br />
+          Track emotional patterns, identify triggers, and see your progress over time. Mirror's AI learns what works for you and adapts its guidance to help you build lasting emotional control.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            See how it works
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -174,10 +168,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        You deserve to feel in control of your emotions.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        Anxiety doesn't have to define your life. When traditional approaches haven't worked, Mirror offers a different path—one based on neuroplasticity and real-time emotional guidance. You have the power to rewire your responses and build the emotional resilience you've been searching for.
       </p>
     </div>
   </section>
@@ -201,13 +195,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "After years of trying meditation apps and therapy, Mirror was the first thing that actually helped me manage my anxiety in real time. It's like having a guide in my pocket that knows exactly what I need in the moment."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-relatable-millennial-looking-directly-at-1765492147205-9.webp" alt="Mirror User" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah M.</div>
+        <div class="text-gray-500 text-xs">Mirror User, 6 months</div>
       </div>
     </div>
   </section>
@@ -216,25 +210,25 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">Instant emotional support.</h3>
+        <p class="text-gray-500 text-sm font-light">When anxiety hits, Mirror is there. Get real-time guidance the moment you need it most.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">AI that learns you.</h3>
+        <p class="text-gray-500 text-sm font-light">Mirror recognizes your unique emotional patterns and adapts its approach to what works for you.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Lasting change, not quick fixes.</h3>
+        <p class="text-gray-500 text-sm font-light">Build permanent emotional resilience through neuroplasticity-based techniques that rewire your responses.</p>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="how-it-works">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">Mirror uses AI-powered emotional pattern recognition to guide you through neuroplasticity exercises in real time. It's like having a personal emotional coach that's always available when you need it.</p>
     </div>
 
     <div class="space-y-6">
@@ -253,10 +247,10 @@
              </div>
              <div class="w-full h-full bg-white pt-8 px-3 overflow-hidden">
                 <!-- Dynamic Content based on step -->
-                {#if step.image === 'plan'}
+                {#if step.image === 'feeling'}
                   <div class="space-y-3 mt-4">
                     <div class="p-3 border rounded-xl border-black bg-gray-50">
-                      <div class="font-bold text-xs mb-1">Optimal ID</div>
+                      <div class="font-bold text-xs mb-1">How are you feeling?</div>
                       <div class="h-1 w-full bg-gray-200 rounded"></div>
                     </div>
                     <div class="p-3 border rounded-xl border-gray-200">
@@ -264,24 +258,24 @@
                        <div class="h-1 w-full bg-gray-100 rounded"></div>
                     </div>
                   </div>
-                {:else if step.image === 'schedule'}
+                {:else if step.image === 'guided'}
                    <div class="mt-4">
-                     <div class="text-center font-bold mb-4">Appointment</div>
+                     <div class="text-center font-bold mb-4">Breathing Exercise</div>
                      <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Map View</div>
                      <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Confirm</button>
                    </div>
-                {:else if step.image === 'results'}
+                {:else if step.image === 'track'}
                    <div class="bg-black h-full -mx-3 -mt-8 pt-10 px-3 text-white">
                       <div class="text-center mb-6">
                         <div class="w-12 h-12 bg-gray-700 rounded-full mx-auto mb-2"></div>
-                        <div class="text-sm font-bold">Grace Parker</div>
+                        <div class="text-sm font-bold">Your Triggers</div>
                       </div>
                       <div class="space-y-2">
                          <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
                          <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
                       </div>
                    </div>
-                {:else if step.image === 'notes'}
+                {:else if step.image === 'resilience'}
                    <div class="mt-4 space-y-3">
                       <div class="font-bold text-sm">Health Status</div>
                       <div class="text-[10px] text-gray-500 leading-relaxed">
@@ -314,18 +308,18 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- AI Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Powered by advanced AI.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Real-time emotional pattern recognition that adapts to you.</h2>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
+        <!-- Abstract Neural Network Visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
+           <svg viewBox="0 0 200 100" class="w-full h-full text-primary-500 fill-current">
+              <!-- Simplified neural network representation -->
+              {#each Array(50) as _, i}
+                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 2} />
               {/each}
            </svg>
         </div>
@@ -334,13 +328,13 @@
       <!-- Privacy Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Your mental health is private.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">End-to-end encryption protects your emotional journey.</h2>
         </div>
         <!-- Blurred Text Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
            <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+             Anxi|%e$9ty Trig|I7g/er Emot|&5n! Feel|?Pm_Lw
            </div>
         </div>
       </div>
@@ -350,64 +344,64 @@
   <!-- Pricing Section -->
   <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Start building emotional resilience today.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Choose the plan that fits your journey. All plans include AI-guided neuroplasticity exercises, real-time emotional support, and pattern tracking.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Monthly Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
         <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <h3 class="text-2xl font-medium mb-1">Monthly</h3>
+        <p class="text-sm text-gray-500 mb-6">Try Mirror risk-free.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$19.99</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-gray-400 mt-1 font-medium">Cancel anytime.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Unlimited AI-guided emotional support sessions.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Real-time trigger recognition and neuroplasticity exercises.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Track emotional patterns and progress over time.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Annual Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="absolute top-0 right-0 bg-primary-50 px-4 py-1 rounded-bl-xl text-xs font-medium text-primary-900">Save 40%</div>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6"></div>
+        <h3 class="text-2xl font-medium mb-1">Annual</h3>
+        <p class="text-sm text-gray-500 mb-6">Best value for lasting change.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$11.99</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-gray-400 mt-1 font-medium">Billed annually at $143.88</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Everything in Monthly, plus priority support.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Advanced analytics and deeper pattern insights.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Early access to new features and techniques.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
     </div>
   </section>
@@ -434,19 +428,13 @@
   <footer class="py-16 px-6 border-t border-gray-200 bg-[#F9F8F6]">
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
-        <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
-        </div>
+        <a href="/" class="flex items-center gap-2">
+           <span class="font-bold text-lg tracking-tight">Mirror</span>
+        </a>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#how-it-works" class="hover:text-black">How it works</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Blog</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
@@ -460,9 +448,9 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Mirror is a wellness technology platform designed to support emotional well-being through AI-guided techniques. Mirror is not a substitute for professional medical advice, diagnosis, or treatment. If you are experiencing a mental health crisis or emergency, please contact your local emergency services or a mental health crisis hotline immediately. Always seek the advice of qualified health providers with any questions you may have regarding a medical or mental health condition.</p>
+        <p>The techniques and guidance provided by Mirror are based on neuroplasticity principles and are intended for educational and self-help purposes. Individual results may vary. Mirror does not guarantee specific outcomes or claim to cure, treat, or diagnose any medical or mental health condition.</p>
+        <p class="mt-2">By using Mirror, you agree to our Terms of Service and Privacy Policy. Your emotional health data is encrypted and private. We never share your personal information without your explicit consent.</p>
       </div>
     </div>
   </footer>
